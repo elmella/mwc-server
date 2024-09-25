@@ -7,7 +7,7 @@ import { generateChatResponse } from './utils';
 
 
 const app = express();
-const port = 3002;
+const port = 80;
 
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Middleware to parse JSON bodies
